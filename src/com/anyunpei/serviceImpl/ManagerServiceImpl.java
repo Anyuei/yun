@@ -28,8 +28,13 @@ public class ManagerServiceImpl implements ManagerService{
 	}
 	@Transactional(propagation=Propagation.SUPPORTS)
 	@Override
-	public Manager queryManager(Integer id) {
-		return managerDao.retrieveManager(id);
+	public Manager queryManagerById(Integer id) {
+		return managerDao.retrieveManagerById(id);
+	}
+	@Transactional(propagation=Propagation.SUPPORTS)
+	@Override
+	public Manager queryManagerByName(String name) {
+		return managerDao.retrieveManagerByName(name);
 	}
 	@Transactional(propagation=Propagation.SUPPORTS)
 	@Override

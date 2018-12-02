@@ -2,7 +2,11 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!-- 管理员表 Dao sql映射dao 关系表 -->
 <mapper namespace="com.anyunpei.dao.ManagerDao">
-	<select id="retrieveManager" resultType="Manager">
+	<select id="retrieveManagerByName" resultType="Manager">
+		SELECT *
+		FROM manager WHERE name="${name}"
+	</select>
+	<select id="retrieveManagerById" resultType="Manager">
 		SELECT *
 		FROM manager WHERE id=${id}
 	</select>

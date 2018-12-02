@@ -30,7 +30,13 @@ public interface ManagerService {
 	 * @param id
 	 * @return
 	 */
-	Manager queryManager(Integer id);
+	Manager queryManagerById(Integer id);
+	/**
+	 * 通过name查找管理员
+	 * @param id
+	 * @return
+	 */
+	Manager queryManagerByName(String name);
 	/**
 	 * 查询所有管理员
 	 * @return

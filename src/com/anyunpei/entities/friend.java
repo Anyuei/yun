@@ -14,13 +14,13 @@ public class friend {
 	private String gender;
 	private String tel;
 	private String qq;
-	private String wechat;
-	private String profile;
-	private Date registTime;
-	private Date acquaintanceTime;
-	private Date latestLogonTime;
-	private Integer loginDays;
-	private String level;
+	private String wechat;//微信
+	private String profile;//自我介绍
+	private Date registTime;//注册时间
+	private Date acquaintanceTime;//相识时间
+	private Date latestLogonTime;//最后登录时间
+	private Integer loginDays;//登录天数
+	private String level;//权限级别
 	public Integer getId() {
 		return id;
 	}
