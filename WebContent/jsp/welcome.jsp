@@ -4,11 +4,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>YUN</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css" />-->
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/lib/bootstrap/css/less/modals.less" />
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/welcome.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                        
 	</head>
 	<style>
 
@@ -18,7 +21,7 @@
 		<!-- 顶部半透明容器 -->
 		<%@ include file="/jsp/header.jsp"%>
 		<!-- 顶部半透明容器 end-->
-		
+
 		<!-- 中部容器 -->
 		<div class="container">
 			<div class="main">

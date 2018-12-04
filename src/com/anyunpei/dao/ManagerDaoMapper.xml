@@ -4,11 +4,11 @@
 <mapper namespace="com.anyunpei.dao.ManagerDao">
 	<select id="retrieveManagerByName" resultType="Manager">
 		SELECT *
-		FROM manager WHERE name="${name}"
+		FROM manager WHERE name=#{name}
 	</select>
 	<select id="retrieveManagerById" resultType="Manager">
 		SELECT *
-		FROM manager WHERE id=${id}
+		FROM manager WHERE id=#{id}
 	</select>
 </mapper>
 

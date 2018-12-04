@@ -6,12 +6,19 @@
 	<div class="col-xs-1 aTopAndBottom ">
 		<a href=""><span class="glyphicon glyphicon-home "></span></a>
 	</div>
-	<div class="col-xs-1 col-xs-offset-9 aTopAndBottom">
+	<div class="col-xs-1 aTopAndBottom">
+		<a href="">
+			<span class="fa fa-github">github</span>
+			
+		</a>
+	</div>
+	<div class="col-xs-1 col-xs-offset-8 aTopAndBottom">
 		<a href="" data-toggle="modal" data-target="#login">
 			<span class="glyphicon glyphicon-log-in"></span>
 			<span id="loginText">登录</span>
 		</a>
 	</div>
+
 	<div class="col-xs-1 aTopAndBottom">
 		<a href="" data-toggle="modal" data-target="#register">
 			<span class="glyphicon glyphicon-user"></span>

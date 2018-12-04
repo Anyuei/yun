@@ -4,7 +4,7 @@
 <div class="navbar navbar-fixed-bottom row">
 	<!-- 学习分类 -->
 	<div class="col-xs-3 aTopAndBottom bottomSelect">
-		<a href=""> <span class="glyphicon glyphicon-education"></span>
+		<a href=""> <span class="fa fa-mortar-board"></span>
 		</a>
 	</div>
 	<!-- 音乐分类 -->

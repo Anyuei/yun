@@ -4,7 +4,7 @@
 <html>
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>学习室</title>
+		<title>自习室</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css" />-->
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/lib/bootstrap/css/less/modals.less" />
@@ -25,8 +25,6 @@
 		<div class="col-xs-10">
 			
 		</div>		
-		
-		
 	</div>
 	<!-- 底部半透明容器：四选项 -->
 	<%@ include file="/jsp/footer.jsp"%>

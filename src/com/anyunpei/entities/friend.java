@@ -6,7 +6,7 @@ import java.util.Date;
  *2018年11月26日下午7:11:49
  * 朋友用户
  */
-public class friend {
+public class Friend {
 	private Integer id;
 	private String password;
 	private String name;
